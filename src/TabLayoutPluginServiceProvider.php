@@ -25,8 +25,6 @@ class TabLayoutPluginServiceProvider extends PluginServiceProvider
      */
     public function bootingPackage() : void
     {
-        parent::bootingPackage();
-
         Livewire::component(static::$name . '::component-wrapper', ComponentWrapper::class);
     }
 }

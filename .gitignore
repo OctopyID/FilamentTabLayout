@@ -3,3 +3,4 @@
 
 # PROJECT
 /vendor
+/composer.lock
