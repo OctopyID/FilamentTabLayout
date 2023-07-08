@@ -1,0 +1,34 @@
+{
+    "name": "octopyid/filament-tab-layout",
+    "description": "Widget tabs for Filament",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Supian M",
+            "email": "supianidz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^2.0",
+        "spatie/laravel-package-tools": "^1.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Octopy\\Filament\\TabLayout\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Octopy\\Filament\\TabLayout\\TabLayoutPluginServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
